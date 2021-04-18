@@ -1,12 +1,29 @@
+
+/************** base styles ***************/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 body {
     background-color: #d9dcd6;
 }
+
+
+
+/*********** header section ***********/
+
 
 .header {
     padding: 20px;
@@ -24,6 +41,7 @@ body {
     color: #d9dcd6;
 }
 
+/***** nav bar *****/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,15 +59,8 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
+/********** background image **********/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,15 +70,10 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+
+
+/************ main content *************/ 
 
 .content {
     width: 75%;
@@ -75,34 +81,8 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
 
-.bensec {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
-.benhead {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benimg {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/***** content sections ******/
 
 .content-sec
  {
@@ -122,6 +102,57 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+
+
+/************ benefits side bar *************/
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/***** benefits sections *****/
+
+.bensec {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benhead {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benimg {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+
+
+
+/****************** footer *******************/
 
 .footer {
     padding: 30px;
