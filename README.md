@@ -26,4 +26,4 @@ I was able to condense the CSS by roughly 100 lines of code (before adding comme
 I also added comments to the CSS file between each major section. This was intended to help outside viewers be able to navigate through my code easier.
 
 
-[Deployed application](./assets/images/deployed.jpg)
+![Deployed application](https://github.com/jazcr/code-refactor-hw/blob/a46f7e55630ccbec0dc236ccde9a7a6a6c3f92eb/assets/images/deployed.JPG "Screenshot")
