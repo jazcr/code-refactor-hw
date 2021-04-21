@@ -2,9 +2,9 @@
 
 # LINKS
 
-[1.](https://jazcr.github.io/code-refactor-hw/)
+[https://jazcr.github.io/code-refactor-hw/]
 
-[2.](https://github.com/jazcr/code-refactor-hw)
+[https://github.com/jazcr/code-refactor-hw]
 
 
 ## Semantic HTML
